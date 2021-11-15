@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="side-menu">
+                <div class="logo">
+                    <h2>HAS<span>TAG</span></h2>
+                    <div id="cls-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="menu-bar">
+                    <ul>
+                        <li class="active">
+                            <i class="fas fa-home"></i>
+                            <a href="#">dashboard</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-friends"></i>
+                            <a href="#">customers</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="#">mesages</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-hands-helping"></i>
+                            <a href="#">help</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-cog"></i>
+                            <a href="#">setting</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-key"></i>
+                            <a href="#">password</a>
+                        </li>
+                       <li class="last">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <a href="#">signout</a>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <div class="content">
+                <h2>Dashboard</h2>
+                <input type="date">
+            </div>
+            <div class="chart-boxes">
+                <div class="box bx1">
+                    <div class="cont">
+                        <i class="fas fa-chart-line"></i>
+                    <h5>total sales</h5>
+                    <h3>$25,000</h3>
+                    <p>last 24 hours</p>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='37'></circle>
+                        </svg>
+                        <div class="per">
+                            <p>81%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bx2">
+                    <div class="cont">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    <h5>total expenses</h5>
+                    <h3>$14,021</h3>
+                    <p>last 24 hours</p>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='37'></circle>
+                        </svg>
+                        <div class="per">
+                            <p>65%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box bx3">
+                    <div class="cont">
+                        <i class="fas fa-chart-pie"></i>
+                    <h5>total sales</h5>
+                    <h3>$11,821</h3>
+                    <p>last 24 hours</p>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='37'></circle>
+                        </svg>
+                        <div class="per">
+                            <p>44%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order">
+                <h3>recent orders</h3>
+                <div class="table">
+                    <table>
+                      <thead>
+                        <tr>
+                            <th>product name</th>
+                            <th>product number</th>
+                            <th>payment</th>
+                            <th>status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <td>mini drone</td>
+                            <td>45236</td>
+                            <td>paid</td>
+                            <td>delivered</td>
+                            <td><a href="#">details</a></td>
+                        </tr>
+                        <tr>
+                            <td>cinematic drone</td>
+                            <td>45447</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td><a href="#">details</a></td>
+                        </tr>
+                        <tr>
+                            <td>mini drone</td>
+                            <td>45238</td>
+                            <td>refunded</td>
+                            <td>returned</td>
+                            <td><a href="#">details</a></td>
+                        </tr>
+                        <tr>
+                            <td> mavic mini drone</td>
+                            <td>45239</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td><a href="#">details</a></td>
+                        </tr>
+                        <tr>
+                            <td>professional drone</td>
+                            <td>45250</td>
+                            <td>emi</td>
+                            <td>delivered</td>
+                            <td><a href="#">details</a></td>
+                        </tr>
+                        <tr>
+                            <td>mini drone</td>
+                            <td>45240</td>
+                            <td>paid</td>
+                            <td>delivered</td>
+                            <td><a href="#">details</a></td>
+                        </tr>
+                      
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            
+        </main>
+        <section>
+            <div class="right">
+                <div class="top">
+                    <button id="menu-bar">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="btn-toggler">
+                        <i class="fas fa-sun active"></i>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                   
+                    <div class="pro">
+                      <div>
+                        <p>hey,<b>paul</b></p>
+                        <small class="adm">admin</small>
+                      </div>
+                        <div class="profile-pic">
+                            <img src="./paul.jpg" class="profile-photo">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="updates">
+                <h3>recent updates</h3>
+                <div class="msg">
+                <div class="peoples">
+                    <div class="profile-photo pr">
+                        <img src="./vin.jpg" class="profile-photo">
+                    </div>
+                      <div class="let">
+                        <p><b>vin diesel</b> received his order of night lion tech gps drone</p>
+                        <small>2 minutes ago</small>
+                      </div>
+                    </div>
+                <div class="peoples">
+                    <div class="profile-photo pr">
+                        <img src="./jn.jpg" class="profile-photo" >
+                    </div>
+                      <div class="let">
+                        <p><b>john</b> received his order of night lion tech gps drone</p>
+                        <small>20 minutes ago</small>
+                      </div>
+                    </div>
+                <div class="peoples">
+                    <div class="profile-photo pr">
+                        <img src="./lt.jpg" class="profile-photo" width="44.79px" height="44.79px">
+                    </div>
+                      <div class="let">
+                        <p><b>letty</b> received his order of night lion tech gps drone</p>
+                        <small>7 minutes ago</small>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sales analytics starts -->
+            <div class="sales">
+                <h3>sales analytics</h3>
+                <div class="needs">
+                    <div class="orders">
+                        <div class="icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                            <div class="gd2">
+                                <h4>online orders</h4>
+                              <small>last 24 hours</small>
+                            </div>
+                            <div class="gd3">
+                                <p>+39%</p>
+                            </div>
+                            <div class="gd4">
+                                <p>3849</p>
+                            </div>
+                        </div>
+                    <div class="orders">
+                        <div class="icon sp">
+                            <i class="fab fa-shopify"></i>
+                        </div>
+                            <div class="gd2">
+                                <h4>offline orders</h4>
+                              <small>last 24 hours</small>
+                            </div>
+                            <div class="gd3">
+                                <p>-9%</p>
+                            </div>
+                            <div class="gd4">
+                                <p>2849</p>
+                            </div>
+                        </div>
+                    <div class="orders">
+                        <div class="icon ti">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                            <div class="gd2">
+                                <h4>new customers</h4>
+                              <small>last 24 hours</small>
+                            </div>
+                            <div class="gd3">
+                                <p>+30%</p>
+                            </div>
+                            <div class="gd4">
+                                <p>3749</p>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+              <!-- sales analytics starts -->
+            </div>
+        </section>
+       
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
